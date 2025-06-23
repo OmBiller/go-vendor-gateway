@@ -8,7 +8,7 @@ import (
 	"github.com/go-ozzo/ozzo-validation/is"
 	"github.com/uptrace/bun"
 
-	"github.com/OmBiller/go-client-api/auth/jwt"
+	"github.com/OmBiller/go-vendor-gateway/auth/jwt"
 )
 
 // Account represents an authenticated application user

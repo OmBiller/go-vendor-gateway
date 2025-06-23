@@ -3,7 +3,7 @@ package cmd
 import (
 	"log"
 
-	"github.com/OmBiller/go-client-api/api"
+	"github.com/OmBiller/go-vendor-gateway/api"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/OmBiller/go-client-api/auth/jwt"
-	"github.com/OmBiller/go-client-api/auth/pwdless"
-	"github.com/OmBiller/go-client-api/models"
+	"github.com/OmBiller/go-vendor-gateway/auth/jwt"
+	"github.com/OmBiller/go-vendor-gateway/auth/pwdless"
+	"github.com/OmBiller/go-vendor-gateway/models"
 	"github.com/uptrace/bun"
 )
 

@@ -9,7 +9,7 @@ import (
 	"github.com/go-chi/jwtauth/v5"
 	"github.com/go-chi/render"
 
-	"github.com/OmBiller/go-client-api/logging"
+	"github.com/OmBiller/go-vendor-gateway/logging"
 )
 
 type ctxKey int

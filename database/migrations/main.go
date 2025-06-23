@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/OmBiller/go-client-api/database"
+	"github.com/OmBiller/go-vendor-gateway/database"
 	"github.com/uptrace/bun/migrate"
 )
 

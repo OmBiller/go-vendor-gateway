@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/OmBiller/go-client-api/auth/jwt"
-	"github.com/OmBiller/go-client-api/email"
-	"github.com/OmBiller/go-client-api/logging"
+	"github.com/OmBiller/go-vendor-gateway/auth/jwt"
+	"github.com/OmBiller/go-vendor-gateway/email"
+	"github.com/OmBiller/go-vendor-gateway/logging"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 	validation "github.com/go-ozzo/ozzo-validation"

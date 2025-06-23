@@ -5,8 +5,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/OmBiller/go-client-api/auth/jwt"
-	"github.com/OmBiller/go-client-api/models"
+	"github.com/OmBiller/go-vendor-gateway/auth/jwt"
+	"github.com/OmBiller/go-vendor-gateway/models"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 	validation "github.com/go-ozzo/ozzo-validation"

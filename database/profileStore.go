@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/OmBiller/go-client-api/models"
+	"github.com/OmBiller/go-vendor-gateway/models"
 	"github.com/uptrace/bun"
 )
 

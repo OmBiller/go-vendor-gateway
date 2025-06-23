@@ -3,7 +3,7 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/OmBiller/go-client-api/database/migrations"
+	"github.com/OmBiller/go-vendor-gateway/database/migrations"
 )
 
 // migrateCmd represents the migrate command

@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/OmBiller/go-client-api/auth/jwt"
-	"github.com/OmBiller/go-client-api/auth/pwdless"
+	"github.com/OmBiller/go-vendor-gateway/auth/jwt"
+	"github.com/OmBiller/go-vendor-gateway/auth/pwdless"
 	"github.com/uptrace/bun"
 )
 

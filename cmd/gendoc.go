@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/OmBiller/go-client-api/api"
+	"github.com/OmBiller/go-vendor-gateway/api"
 	"github.com/go-chi/docgen"
 	"github.com/spf13/cobra"
 )

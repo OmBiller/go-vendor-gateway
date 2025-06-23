@@ -1,4 +1,4 @@
-module github.com/OmBiller/go-client-api
+module github.com/OmBiller/go-vendor-gateway
 
 go 1.23.0
 
