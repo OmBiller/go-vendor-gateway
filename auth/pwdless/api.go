@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dhax/go-base/auth/jwt"
-	"github.com/dhax/go-base/email"
-	"github.com/dhax/go-base/logging"
+	"github.com/OmBiller/go-client-api/auth/jwt"
+	"github.com/OmBiller/go-client-api/email"
+	"github.com/OmBiller/go-client-api/logging"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 	validation "github.com/go-ozzo/ozzo-validation"
@@ -88,6 +88,11 @@ type loginRequest struct {
 	Email string
 }
 
+type loginResponse struct {
+	Email string
+	Token string
+}
+
 func (body *loginRequest) Bind(r *http.Request) error {
 	body.Email = strings.TrimSpace(body.Email)
 	body.Email = strings.ToLower(body.Email)
@@ -136,7 +141,15 @@ func (rs *Resource) login(w http.ResponseWriter, r *http.Request) {
 		}
 	}()
 
-	render.Respond(w, r, http.NoBody)
+	// render.Respond(w, r, http.NoBody)
+	render.Respond(w, r, &loginResponse{
+		Email: acc.Email,
+		// Name:   acc.Name,
+		// URL:    tokenURL,
+		Token: lt.Token,
+		// Expiry: lt.Expiry,
+
+	})
 }
 
 type tokenRequest struct {

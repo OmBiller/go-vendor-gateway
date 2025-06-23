@@ -8,8 +8,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/uptrace/bun"
 
-	"github.com/dhax/go-base/database"
-	"github.com/dhax/go-base/logging"
+	"github.com/OmBiller/go-client-api/database"
+	"github.com/OmBiller/go-client-api/logging"
 )
 
 type ctxKey int

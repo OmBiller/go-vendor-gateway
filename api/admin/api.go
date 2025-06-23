@@ -9,9 +9,9 @@ import (
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/dhax/go-base/auth/authorize"
-	"github.com/dhax/go-base/database"
-	"github.com/dhax/go-base/logging"
+	"github.com/OmBiller/go-client-api/auth/authorize"
+	"github.com/OmBiller/go-client-api/database"
+	"github.com/OmBiller/go-client-api/logging"
 )
 
 const (

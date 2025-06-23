@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/dhax/go-base/email"
+	"github.com/OmBiller/go-client-api/email"
 )
 
 // ContentLoginToken defines content for login token email template.

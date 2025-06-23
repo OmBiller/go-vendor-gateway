@@ -4,9 +4,9 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/dhax/go-base/auth/jwt"
-	"github.com/dhax/go-base/auth/pwdless"
-	"github.com/dhax/go-base/models"
+	"github.com/OmBiller/go-client-api/auth/jwt"
+	"github.com/OmBiller/go-client-api/auth/pwdless"
+	"github.com/OmBiller/go-client-api/models"
 	"github.com/uptrace/bun"
 )
 

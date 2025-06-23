@@ -5,8 +5,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/dhax/go-base/auth/jwt"
-	"github.com/dhax/go-base/models"
+	"github.com/OmBiller/go-client-api/auth/jwt"
+	"github.com/OmBiller/go-client-api/models"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/render"
 	validation "github.com/go-ozzo/ozzo-validation"
